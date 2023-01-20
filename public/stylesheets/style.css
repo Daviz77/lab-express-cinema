@@ -1,8 +1,98 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  color: #00B7FF;
+.home{
+  background-image:url("/images/cinema.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.text{
+  display: block;
+  margin-left: 800px;
+}
+
+h3.cinema{
+  font-size: 80px;
+  color: white;
+}
+
+h3.ironhack{
+  font-size: 80px;
+  color: white;
+}
+
+.cinema{
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.ironhack{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.button{
+  background-color: rgb(132, 175, 235);
+  padding: 16px 32px;
+  border-radius: 40px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.movies-page{
+  margin: 0px;
+  background-color: white;
+  position: absolute;
+}
+
+.moviesList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 180px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.title{
+  font-weight: 800;
+}
+
+.image{
+  margin-bottom: 20px;
+}
+.movies{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+.movies a{
+  color:black;
+}
+
+.movie-detail{
+  position: absolute;
+  margin: 0px;
+  background-color: white;
+}
+
+.button-details{
+  padding: 2px;
+  color: darkred;
+  position: absolute;
+  top: 38%;
+  left: 15%;
+  transform: scale3d(1.5, 1.5, 1.5);
 }
